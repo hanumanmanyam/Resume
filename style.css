@@ -1,0 +1,398 @@
+body{
+  margin: 0px;
+}
+#body-header{
+  height: 65vh;
+  opacity: 0.8;
+  background-image: url(P1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 1.2rem;
+  
+  
+
+
+}
+.horizontal-list{
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+
+
+}
+.horizontal-list li{
+  display:inline-block;
+  margin: 0px 8px 0px 8px;
+}
+.horizontal-list li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  /*transition:color 0.5s,border-bottom 4s;*/
+}
+.horizontal-list li a:hover{
+  color: greenyellow;
+  transition: color 3s;
+  /*border-bottom: 5px solid greenyellow;*/
+  
+}
+.myname h1{
+  text-align: center;
+  color:white;
+  letter-spacing: 2px;
+  font-size: 40px;
+  margin-top: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.social{
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+.social li{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+}
+.social li a i{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.social li a i:hover{
+  color: greenyellow;
+  box-shadow: 0px 0px 5px 4px white;
+}
+#About
+{
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+#my-info{
+  height: 20rem;
+  width: 20rem;
+  margin: auto;
+  margin-top: -19vh;
+  
+}
+#myimg img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 5px white;
+}
+#para{
+ padding: 10px;
+ width: 70%;
+ height: 100%;
+ margin: auto;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: justify;
+ color: grey;
+ line-height: 28px;
+ font-weight: 100;
+ font-size: 1.1rem;
+}
+#skill{
+  width: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: greenyellow;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+.skills-display{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+
+}
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill-progress{
+  width:180px;
+  height:32px;
+  background-color: grey;
+  border-radius: 10%;
+  border-radius: 0.8rem;
+  margin-bottom: 30px;
+
+}
+.part-skill1{
+  width:160px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill2{
+  width:100px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill3{
+  width:120px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill4{
+  width:120px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill5{
+  width:90px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill6{
+  width:90px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill7{
+  width:110px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill8{
+  width:102px;
+  height:inherit;
+  background-color:greenyellow;
+  border-radius: 0.8rem;
+
+}
+.part-skill1 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part-skill2 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part-skill3 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part-skill4 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part-skill5 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part-skill6 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part-skill7 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.part-skill8 span{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Edu{
+  width: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: greenyellow;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+.Edu-block{
+  position: relative;
+  width: 70%;
+  margin: auto;
+  height: auto;
+  /*border: 5px solid black;*/
+}
+.block{
+  position: relative;
+  width:35%;
+  /*border: 5px solid black;*/
+  height: 250px;
+  margin: 50px;
+
+  border-radius: 10%;
+
+}
+.block:nth-child(2n+1)::after{
+  content: '';
+  position: absolute;
+  top: 30%;
+  right: -32%;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  background-color:greenyellow;
+  z-index: 1;
+}
+.block:nth-child(2n)::after{
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: -27%;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  background-color:greenyellow;
+  z-index: 1;
+}
+.block:nth-child(2n)
+{
+  left:54%;
+}
+.line{
+  position: absolute;
+  height: 80%;
+  width:0;
+  border: 3px dashed black;
+  top:10%;
+
+  left: 50%;
+}
+.line-plane{
+  position: sticky;
+  top: 30%;
+  font-size: 50px;
+  transform:rotate(90deg);
+  z-index: 3;
+}
+.line-plane i{
+  color: grey;
+}
+.image-logo{
+  display:inline-block;
+  left: 100px;
+}
+.image-logo img{
+  width: 120px;
+  height: 120px;
+  margin-left: 10px
+}
+.content{
+  display:inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  padding: 5%;
+}
+.content h2{
+  display:inline-block;
+  color: yellowgreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section:nth-child(2n+1)
+{
+  background-color:rgb(234, 243, 243);
+  
+}
+.contact{
+  width: 70%;
+  height: 40%;
+  margin: auto;
+}
+.contact form label{
+  font-family: Arial, Helvetica, sans-serif;
+  color:yellowgreen;
+}
+.contact form input{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 20px;
+  width: 150px;
+  background-color: rgb(234, 243, 243);
+  border-radius: 10px;
+}
+.all{
+  width: 70%;
+  height: auto;
+  margin-left: 270px;
+}
+.labels{
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  
+}
+.inputs{
+  display: inline-block;
+  width: 45%;
+  height: auto;
+
+}
+.inputs input{
+  margin: 10px;
+}
+.sub{
+  margin-left: 200px;
+}
+.sub input:hover{
+  color: greenyellow;
+  
+}
+
+
+
+
+
+
